@@ -12,7 +12,7 @@ TickTack is a streamlined issue management app designed for agile teams. Effortl
 
 ## Installation
 
-**You can access an open-access instance of TickTack at [ticktack.vercel.app](https://ticktack.vercel.app).**
+**You can access an open-access instance of TickTack at [ticktacktrack.vercel.app](https://ticktacktrack.vercel.app).**
 
 To host a local instance of TickTack, follow these steps:
 
