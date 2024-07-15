@@ -31,7 +31,7 @@ _Alternatively, clone via SSH, the GitHub CLI, or GitHub Desktop_
 npm install
 ```
 
-3. Create a MongoDB Atlas cluster and `MONGODB_URI` to your `.env.local` file
+3. Create a MongoDB Atlas cluster and add `MONGODB_URI` to your `.env.local` file
 
 4. Run the application
 
