@@ -11,7 +11,6 @@ const ticketSchema = new Schema(
     priority: Number,
     progress: Number,
     status: String,
-    active: boolean,
   },
   {
     timestamps: true,
