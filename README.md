@@ -1,36 +1,66 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# TickTack
 
-## Getting Started
+TickTack is a streamlined issue management app designed for agile teams. Effortlessly track, manage, and resolve issues with our intuitive interface, ensuring your projects stay on course and your team remains productive. Built with Next.js.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- Intuitive Interface: Easy-to-use dashboard for a clear overview of all issues.
+- Customizable Workflows: Adapt TickTack to fit your team's unique processes.
+- Priority Levels: Assign priority levels to tickets to ensure critical issues are addressed promptly.
+- Progress Tracking: Monitor the status of each ticket with clear progress indicators.
+- Timestamps: Keep track of when tickets are created, updated, and resolved with automatic timestamps.
+
+## Installation
+
+**You can access an open-access instance of TickTack at [ticktack.vercel.app](https://ticktack.vercel.app).**
+
+To host a local instance of TickTack, follow these steps:
+
+1. Clone the repository:
+
+```sh
+git clone https://github.com/shrysjain/ticktack.git
+cd ticktack
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+_Alternatively, clone via SSH, the GitHub CLI, or GitHub Desktop_
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+2. Install dependencies:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+```sh
+npm install
+```
 
-## Learn More
+3. Create a MongoDB Atlas cluster and `MONGODB_URI` to your `.env.local` file
 
-To learn more about Next.js, take a look at the following resources:
+4. Run the application
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```sh
+npm run dev
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+5. Open your web browser and go to `http://localhost:3000`. Enjoy!
 
-## Deploy on Vercel
+## Contributing
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. Fork the repository
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+2. Create your feature branch
+
+```bash
+git checkout -b feature/your-feature
+```
+
+3. Commit your changes
+
+4. Push to the branch
+
+```bash
+git push origin feature/your-feature
+```
+
+5. Open a pull request
+
+## Licensing
+
+This project is licensed under the MIT license - see the [LICENSE](./LICENSE) file for details.
